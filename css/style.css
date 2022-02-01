@@ -153,5 +153,15 @@
         z-index: 1;
         position: sticky;
         }
+ 
+ .projects{
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: auto;
+    margin-top: 20px;
+  width :200px;
+    justify-content : center;
+}
     
 }
