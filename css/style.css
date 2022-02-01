@@ -1,0 +1,157 @@
+
+.navbar-brand {
+ font-family: Viga;
+ font-size:25px;
+
+ }
+ 
+ .nav-link  {
+    font-family: Viga;
+    font-size: 18px;
+}
+.jumbotron {
+    background-image: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg");
+    background-size: cover;
+    padding-top: 18%;
+    height: 400px;
+    text-align: center;
+   }
+
+   .info-panel{
+       box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+       border-radius: 12px;
+       margin-top: -100px;
+       background-color: #242424;
+     color: white;
+       padding: 30px;
+   }
+
+.info-panel img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+   .jumbotron .display-4{
+       color: white;
+      
+       font-weight: 200;
+       font-size: 50px;
+      
+   }
+
+   .tombol{
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 35px;
+}
+
+.projects{
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.card{
+    margin: 10px;
+}
+
+.item{
+    background-color: #242424;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.feedback{
+    color: white;
+}
+
+.judul{
+    color: Black;
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-weight: 200;
+    font-style: italic;
+    position: static;
+    font-family: Viga;
+}
+
+.example{
+    padding: 20px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: sticky;
+    }
+
+.head-card{
+    color: white;
+    background-color: #242424;
+    font-family: Viga;
+}
+.navbar-brand, .nav-link{
+    color:white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) { 
+.navbar-brand, .nav-link{
+    color:white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+    .nav-link{
+        text-transform: uppercase;
+        font-family: Viga;
+        font-size: 18px;
+       
+    }
+
+    .jumbotron{
+        background-image: url("https://robbiwahyu.files.wordpress.com/2015/11/peta-indonesia.jpg");
+        margin-top: -75px;
+        height: 650px;
+        text-align: center;
+    }
+    .jumbotron .display-4{
+        color: red;
+        font-weight: 300;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.10);
+        font-size: 60px;
+        margin-top: -80px;
+    }
+    .dua{
+        color: red;
+        
+    }
+    .tiga{
+        color: white;
+        font-weight: normal;
+    }
+    .tombol{
+        color: white;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 35px;
+    }
+
+    .example{
+        padding: 20px;
+        margin-bottom: 50px;
+        z-index: 1;
+        position: sticky;
+        }
+    
+}
